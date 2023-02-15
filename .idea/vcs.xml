@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/code/python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code/python/rpa-python相关包/RPA-Python-Tump" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code/python/validate_code/captcha_qq" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code/python/validate_code/crack-the-shield" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/code/rpa-python" vcs="Git" />
+  </component>
+</project>

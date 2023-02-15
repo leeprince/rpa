@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Single</title>
+    <!--/tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content=""/>
+    <script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+
+    </script>
+    <!--//tags -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui1.css">
+    <link rel="stylesheet" href="css/shop.css" type="text/css" media="screen" property=""/>
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen"/>
+    <link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //for bootstrap working -->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:200,200i,300,400,400i,500,500i,600,600i,700,700i,800"
+          rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic'
+          rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<!-- header_top -->
+<div class="header" id="home">
+    <div class="banner_header_top_agile_w3ls">
+        <div class="header-top-wthree-agileits">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header navbar-left">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <h1><a class="navbar-brand" href="index.html"> Surf Inn</a></h1>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="header_left">
+                    <ul>
+                        <li>
+                            <div class="surfcart surfcart2 cart cart box_1">
+                                <form action="#" method="post" class="last">
+                                    <input type="hidden" name="cmd" value="_cart">
+                                    <input type="hidden" name="display" value="1">
+                                    <button class="top_surf_cart" type="submit" name="submit" value=""><i
+                                            class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+                        </li>
+                        <li><a class="sign" href="#" data-toggle="modal" data-target="#myModal2"><i class="fa fa-user"
+                                                                                                    aria-hidden="true"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+
+                    <div class="top_nav_left">
+                        <nav class="cl-effect-15" id="cl-effect-15">
+                            <ul>
+                                <li><a href="index.html" data-hover="Home">Home</a></li>
+                                <li><a href="about.html" data-hover="About">About</a></li>
+                                <li><a href="blog.html" data-hover="Blog">Blog</a></li>
+                                <li class="dropdown">
+                                    <a href="services.html" data-hover="Drop Down" class="dropdown-toggle"
+                                       data-toggle="dropdown">Drop Down <b class="fa fa-angle-down"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="404.html">Services</a></li>
+                                        <li class="divider"></li>
+                                        <li><a class="s-menu" href="#">Pages <b class="fa fa-angle-right"></b></a>
+                                            <ul class="dropdown-menu sub-menu">
+                                                <li><a href="404.html">Error</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="gallery.html">Gallery</a></li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+                                <li><a href="Contact.html" data-hover="Contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- search -->
+                <div class="search">
+                    <div class="cd-main-header">
+                        <ul class="cd-header-buttons">
+                            <li><a class="cd-search-trigger" href="#cd-search"> <span></span></a></li>
+                        </ul>
+                    </div>
+                    <div id="cd-search" class="cd-search">
+                        <form action="#" method="get">
+                            <input name="Search" type="search" placeholder="Click enter after typing...">
+                        </form>
+                    </div>
+                </div>
+                <!-- //search -->
+                <div class="clearfix"></div>
+            </nav>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="banner_inner">
+        <div class="services-breadcrumb">
+            <div class="inner_breadcrumb">
+
+                <ul class="short">
+                    <li><a href="index.html">Home</a><i>|</i></li>
+                    <li>Shop</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!--//banner -->
+
+    <!-- Modal1 -->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                    <div class="signin-form profile">
+                        <h3 class="sign">Sign In</h3>
+                        <div class="login-form">
+                            <form action="#" method="get">
+                                <input type="email" name="email" placeholder="E-mail" required="">
+                                <input type="password" name="password" placeholder="Password" required="">
+                                <div class="tp">
+                                    <input type="submit" value="Sign In">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="login-social-grids">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+                        <p><a href="#" data-toggle="modal" data-target="#myModal3"> Don't have an account?</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //Modal1 -->
+    <!-- Modal2 -->
+    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                    <div class="signin-form profile">
+                        <h3 class="sign">Sign Up</h3>
+                        <div class="login-form">
+                            <form action="#" method="get">
+                                <input type="text" name="name" placeholder="Username" required="">
+                                <input type="email" name="email" placeholder="Email" required="">
+                                <input type="password" name="password" placeholder="Password" required="">
+                                <input type="password" name="password" placeholder="Confirm Password" required="">
+                                <input type="submit" value="Sign Up">
+                            </form>
+                        </div>
+                        <p><a href="#"> By clicking Sign up, I agree to your terms</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //Modal2 -->
+</div>
+<!--// header_top -->
+<!--about-->
+<div class="ab_content">
+    <div class="container">
+        <div class="col-md-4 single-right-left ">
+            <div class="grid images_3_of_2">
+                <div class="flexslider1">
+
+                    <ul class="slides">
+                        <li data-thumb="images/d2.jpg">
+                            <div class="thumb-image"><img src="images/d2.jpg" data-imagezoom="true"
+                                                          class="img-responsive"></div>
+                        </li>
+                        <li data-thumb="images/d1.jpg">
+                            <div class="thumb-image"><img src="images/d1.jpg" data-imagezoom="true"
+                                                          class="img-responsive"></div>
+                        </li>
+                        <li data-thumb="images/d3.jpg">
+                            <div class="thumb-image"><img src="images/d3.jpg" data-imagezoom="true"
+                                                          class="img-responsive"></div>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 single-right-left simpleCart_shelfItem">
+            <h3>Water Sports Waistcoat</h3>
+            <p><span class="item_price">$650</span>
+                <del>$1,199</del>
+            </p>
+            <div class="rating1">
+                <ul class="stars">
+                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="description">
+                <h5>Check delivery, payment options and charges at your location</h5>
+                <form action="#" method="get">
+                    <input type="text" value="Enter pincode" onfocus="this.value = '';"
+                           onblur="if (this.value == '') {this.value = 'Enter pincode';}"
+                           required="">
+                    <input type="submit" value="Check">
+                </form>
+            </div>
+            <div class="color-quality">
+                <div class="color-quality-right">
+                    <h5>Quality :</h5>
+                    <select id="country1" onchange="change_country(this.value)" class="frm-field required sect">
+                        <option value="null">5 Qty</option>
+                        <option value="null">6 Qty</option>
+                        <option value="null">7 Qty</option>
+                        <option value="null">10 Qty</option>
+                    </select>
+                </div>
+            </div>
+            <div class="occasional">
+                <h5>Types :</h5>
+                <div class="colr ert">
+                    <label class="radio"><input type="radio" name="radio" checked=""><i></i>Dry Bag</label>
+                </div>
+                <div class="colr">
+                    <label class="radio"><input type="radio" name="radio"><i></i> Phone Pocket</label>
+                </div>
+                <div class="colr">
+                    <label class="radio"><input type="radio" name="radio"><i></i>Waistcoat</label>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="occasion-cart">
+                <div class="surf single-item single_page_b">
+                    <form action="#" method="get">
+                        <input type="hidden" name="cmd" value="_cart">
+                        <input type="hidden" name="add" value="1">
+                        <input type="hidden" name="surf_item" value="Chikku Loafers">
+                        <input type="hidden" name="amount" value="405.00">
+                        <input type="submit" name="submit" value="Add to cart" class="button add">
+
+                        <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                    </form>
+
+                </div>
+
+            </div>
+            <ul class="footer_list_icons single_in">
+                <li>Share On :</li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+            </ul>
+
+        </div>
+        <div class="clearfix"></div>
+        <!--/tabs-->
+        <div class="responsive_tabs">
+            <div id="horizontalTab">
+                <ul class="resp-tabs-list">
+                    <li>Description</li>
+                    <li>Reviews</li>
+                    <li>Information</li>
+                </ul>
+                <div class="resp-tabs-container">
+                    <!--/tab_one-->
+                    <div class="tab1">
+
+                        <div class="single_page">
+                            <h6>Lorem ipsum dolor sit amet</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elPellentesque vehicula augue eget
+                                nisl ullamcorper, molestie
+                                blandit ipsum auctor. Mauris volutpat augue dolor.Consectetur adipisicing elit, sed do
+                                eiusmod tempor incididunt
+                                ut lab ore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco. labore et dolore
+                                magna aliqua.</p>
+                            <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elPellentesque vehicula
+                                augue eget nisl ullamcorper, molestie
+                                blandit ipsum auctor. Mauris volutpat augue dolor.Consectetur adipisicing elit, sed do
+                                eiusmod tempor incididunt
+                                ut lab ore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco. labore et dolore
+                                magna aliqua.</p>
+                        </div>
+                    </div>
+                    <!--//tab_one-->
+                    <div class="tab2">
+
+                        <div class="single_page">
+                            <div class="bootstrap-tab-text-grids">
+                                <div class="bootstrap-tab-text-grid">
+                                    <div class="bootstrap-tab-text-grid-left">
+                                        <img src="images/t1.jpg" alt=" " class="img-responsive">
+                                    </div>
+                                    <div class="bootstrap-tab-text-grid-right">
+                                        <ul>
+                                            <li><a href="#">Admin</a></li>
+                                            <li><a href="#"><i class="fa fa-reply-all" aria-hidden="true"></i> Reply</a>
+                                            </li>
+                                        </ul>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elPellentesque vehicula
+                                            augue eget.Ut enim ad minima veniam,
+                                            quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+                                            aliquid ex ea commodi consequatur? Quis
+                                            autem vel eum iure reprehenderit.</p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="add-review">
+                                    <h4>add a review</h4>
+                                    <form action="#" method="get">
+                                        <input type="text" name="Name" required="Name">
+                                        <input type="email" name="Email" required="Email">
+                                        <textarea name="Message" required=""></textarea>
+                                        <input type="submit" value="SEND">
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab3">
+
+                        <div class="single_page">
+                            <h6>Water Sports Waistcoat </h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elPellentesque vehicula augue eget
+                                nisl ullamcorper, molestie
+                                blandit ipsum auctor. Mauris volutpat augue dolor.Consectetur adipisicing elit, sed do
+                                eiusmod tempor incididunt
+                                ut lab ore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco. labore et dolore
+                                magna aliqua.</p>
+                            <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elPellentesque vehicula
+                                augue eget nisl ullamcorper, molestie
+                                blandit ipsum auctor. Mauris volutpat augue dolor.Consectetur adipisicing elit, sed do
+                                eiusmod tempor incididunt
+                                ut lab ore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco. labore et dolore
+                                magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--//tabs-->
+        <!-- /new_arrivals -->
+        <div class="new_arrivals">
+            <h3>Featured Products</h3>
+            <!-- /womens -->
+            <div class="col-md-3 product-men women_two">
+                <div class="product-surf-info surf">
+                    <div class="men-pro-item">
+                        <div class="men-thumb-item">
+                            <img src="images/s4.jpg" alt="">
+                            <div class="men-cart-pro">
+                                <div class="inner-men-cart-pro">
+                                    <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                </div>
+                            </div>
+                            <span class="product-new-top">New</span>
+                        </div>
+                        <div class="item-info-product">
+                            <h4>
+                                <a href="single.html">Phone Pocket </a>
+                            </h4>
+                            <div class="info-product-price">
+                                <div class="grid_meta">
+                                    <div class="product_price">
+                                        <div class="grid-price ">
+                                            <span class="money ">$575.00</span>
+                                        </div>
+                                    </div>
+                                    <ul class="stars">
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="surf single-item hvr-outline-out">
+                                    <form action="#" method="get">
+                                        <input type="hidden" name="cmd" value="_cart">
+                                        <input type="hidden" name="add" value="1">
+                                        <input type="hidden" name="surf_item" value="Phone Pocket">
+                                        <input type="hidden" name="amount" value="575.00">
+                                        <button type="submit" class="surf-cart psurf-cart"><i class="fa fa-cart-plus"
+                                                                                              aria-hidden="true"></i>
+                                        </button>
+
+                                        <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                    </form>
+
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 product-men women_two">
+                <div class="product-surf-info surf">
+                    <div class="men-pro-item">
+                        <div class="men-thumb-item">
+                            <img src="images/s5.jpg" alt="">
+                            <div class="men-cart-pro">
+                                <div class="inner-men-cart-pro">
+                                    <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                </div>
+                            </div>
+                            <span class="product-new-top">New</span>
+                        </div>
+                        <div class="item-info-product">
+                            <h4>
+                                <a href="single.html">Dry Bag</a>
+                            </h4>
+                            <div class="info-product-price">
+                                <div class="grid_meta">
+                                    <div class="product_price">
+                                        <div class="grid-price ">
+                                            <span class="money ">$325.00</span>
+                                        </div>
+                                    </div>
+                                    <ul class="stars">
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="surf single-item hvr-outline-out">
+                                    <form action="#" method="get">
+                                        <input type="hidden" name="cmd" value="_cart">
+                                        <input type="hidden" name="add" value="1">
+                                        <input type="hidden" name="surf_item" value="Dry Bag">
+                                        <input type="hidden" name="amount" value="325.00">
+                                        <button type="submit" class="surf-cart psurf-cart"><i class="fa fa-cart-plus"
+                                                                                              aria-hidden="true"></i>
+                                        </button>
+
+                                        <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                    </form>
+
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 product-men women_two">
+                <div class="product-surf-info surf">
+                    <div class="men-pro-item">
+                        <div class="men-thumb-item">
+                            <img src="images/s7.jpg" alt="">
+                            <div class="men-cart-pro">
+                                <div class="inner-men-cart-pro">
+                                    <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                </div>
+                            </div>
+                            <span class="product-new-top">New</span>
+                        </div>
+                        <div class="item-info-product">
+                            <h4>
+                                <a href="single.html">Board Foot Rope</a>
+                            </h4>
+                            <div class="info-product-price">
+                                <div class="grid_meta">
+                                    <div class="product_price">
+                                        <div class="grid-price ">
+                                            <span class="money ">$875.00</span>
+                                        </div>
+                                    </div>
+                                    <ul class="stars">
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="surf single-item hvr-outline-out">
+                                    <form action="#" method="get">
+                                        <input type="hidden" name="cmd" value="_cart">
+                                        <input type="hidden" name="add" value="1">
+                                        <input type="hidden" name="surf_item" value="Board Foot Rope">
+                                        <input type="hidden" name="amount" value="875.00">
+                                        <button type="submit" class="surf-cart psurf-cart"><i class="fa fa-cart-plus"
+                                                                                              aria-hidden="true"></i>
+                                        </button>
+
+                                        <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                    </form>
+
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 product-men women_two">
+                <div class="product-surf-info surf">
+                    <div class="men-pro-item">
+                        <div class="men-thumb-item">
+                            <img src="images/s8.jpg" alt="">
+                            <div class="men-cart-pro">
+                                <div class="inner-men-cart-pro">
+                                    <a href="single.html" class="link-product-add-cart">Quick View</a>
+                                </div>
+                            </div>
+                            <span class="product-new-top">New</span>
+                        </div>
+                        <div class="item-info-product">
+                            <h4>
+                                <a href="single.html">Fin Key</a>
+                            </h4>
+                            <div class="info-product-price">
+                                <div class="grid_meta">
+                                    <div class="product_price">
+                                        <div class="grid-price ">
+                                            <span class="money ">$505.00</span>
+                                        </div>
+                                    </div>
+                                    <ul class="stars">
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="surf single-item hvr-outline-out">
+                                    <form action="#" method="get">
+                                        <input type="hidden" name="cmd" value="_cart">
+                                        <input type="hidden" name="add" value="1">
+                                        <input type="hidden" name="surf_item" value="Fin Key">
+                                        <input type="hidden" name="amount" value="505.00">
+                                        <button type="submit" class="surf-cart psurf-cart"><i class="fa fa-cart-plus"
+                                                                                              aria-hidden="true"></i>
+                                        </button>
+
+                                        <a href="#" data-toggle="modal" data-target="#myModal1"></a>
+                                    </form>
+
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- //womens -->
+            <div class="clearfix"></div>
+        </div>
+        <!--//new_arrivals-->
+
+
+        <div class="clearfix"></div>
+
+    </div>
+</div>
+<!--//about-->
+
+<!-- footer -->
+<footer>
+    <div class="footer-top-w3-agileits">
+        <div class="container">
+            <div class="footer-grid-wthree-agiles">
+                <div class="col-md-5 footer-grid-wthree-agile">
+                    <h3>About us</h3>
+                    <p>Lorem ipsum dolor sit consectetur elit. Nam eget egestas erat. In hachabi tasse platea dictumst.
+                        hachabi tasse platea
+                        dictumst
+                    </p>
+                    <p>Lorem ipsum dolor sit consectetur elit. Nam eget egestas erat. In hachabi tasse platea
+                        dictumst.</p>
+                    <ul class="footer_list_icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-grid-wthree-agile">
+                    <h3>Links</h3>
+                    <ul class="footer-list">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="404.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-grid-wthree-agile">
+                    <h3>Newsletter</h3>
+                    <form action="#" method="get">
+                        <input type="text" name="text" placeholder="Name" required="">
+                        <input type="email" name="Email" placeholder="Email" required="">
+                        <input type="submit" value="subscribe now">
+                    </form>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="copy_right">
+                <p>Copyright &copy; 2020.Company name All rights reserved.<a target="_blank"
+                                                                             href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<!-- //footer -->
+<a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover"
+                                                                         style="opacity: 1;"> </span></a>
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- single -->
+<script src="js/imagezoom.js"></script>
+<!-- single -->
+<!-- script for responsive tabs -->
+<script src="js/easy-responsive-tabs.js"></script>
+<script>
+		$(document).ready(function () {
+			$('#horizontalTab').easyResponsiveTabs({
+				type: 'default', //Types: default, vertical, accordion           
+				width: 'auto', //auto or any width like 600px
+				fit: true, // 100% fit in a container
+				closed: 'accordion', // Start closed if in accordion view
+				activate: function (event) { // Callback function if tab is switched
+					var $tab = $(this);
+					var $info = $('#tabInfo');
+					var $name = $('span', $info);
+					$name.text($tab.text());
+					$info.show();
+				}
+			});
+			$('#verticalTab').easyResponsiveTabs({
+				type: 'vertical',
+				width: 'auto',
+				fit: true
+			});
+		});
+
+</script>
+<!-- FlexSlider -->
+<script src="js/jquery.flexslider.js"></script>
+<script>
+		// Can also be used with $(document).ready()
+		$(window).load(function () {
+			$('.flexslider1').flexslider({
+				animation: "slide",
+				controlNav: "thumbnails"
+			});
+		});
+
+</script>
+<!-- //FlexSlider-->
+<!--search-bar-->
+<script src="js/search.js"></script>
+<!--//search-bar-->
+<!-- cart-js -->
+<script src="js/minicart.js"></script>
+<script>
+		surf.render();
+
+		surf.cart.on('surf_checkout', function (evt) {
+			var items, len, i;
+
+			if (this.subtotal() > 0) {
+				items = this.items();
+
+				for (i = 0, len = items.length; i < len; i++) {}
+			}
+		});
+
+</script>
+<!-- //cart-js -->
+
+<!-- price range (top products) -->
+<script src="js/jquery-ui.js"></script>
+<script>
+		//<![CDATA[ 
+		$(window).load(function () {
+			$("#slider-range").slider({
+				range: true,
+				min: 0,
+				max: 9000,
+				values: [50, 6000],
+				slide: function (event, ui) {
+					$("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+				}
+			});
+			$("#amount").val("$" + $("#slider-range").slider("values", 0) + " - $" + $("#slider-range").slider("values", 1));
+
+		}); //]]>
+
+</script>
+<!-- //price range (top products) -->
+
+
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+
+</script>
+<!-- //end-smooth-scrolling -->
+<script>
+		$('ul.dropdown-menu li').hover(function () {
+			$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+		}, function () {
+			$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+		});
+
+</script>
+<!-- smooth-scrolling-of-move-up -->
+<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+
+</script>
+<!-- //smooth-scrolling-of-move-up -->
+<!-- Pricing-Popup-Box-JavaScript -->
+<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+<!-- //Pricing-Popup-Box-JavaScript -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+
+</html>

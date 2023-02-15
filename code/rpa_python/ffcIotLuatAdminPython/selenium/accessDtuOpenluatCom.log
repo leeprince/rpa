@@ -1,0 +1,11 @@
+登录表单提交
+点击切换分组管理
+点击新建分组按钮
+输入分组名称
+提交分组
+查看设备列表
+添加设备
+列表选择添加设备
+输入Imei并搜索添加
+点击选择Imei
+<selenium.webdriver.remote.webelement.WebElement (session="1fb8b0e4bd7290aa940b404a51418f68", element="277d8ae9-5c97-4149-acea-fc4286e59f54")>
